@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JADWAL PELAJARAN KELAS 9.1</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="liquid-bg"></canvas>
+
+  <div class="container">
+    <header>
+      <h1 class="judul">JADWAL PELAJARAN KELAS 9.1</h1>
+     <div class="pengumuman">
+  <h2>📢 Pengumuman</h2>
+  <div class="isi-pengumuman">
+    <p>Besok membawa makanan jumat berkah, dan boleh juga beli syuuqi.</p>
+    <img src="images/pengumuman1.jpg" alt="Gambar Pengumuman">
+  </div>
+</div>
+
+    </header>
+
+    <section class="controls">
+      <div class="hari-buttons">
+        <button data-day="senin">Senin</button>
+        <button data-day="selasa">Selasa</button>
+        <button data-day="rabu">Rabu</button>
+        <button data-day="kamis">Kamis</button>
+        <button data-day="jumat">Jumat</button>
+        <button data-day="sabtu">Sabtu</button>
+      </div>
+    </section>
+
+    <section class="jadwal">
+      <img id="jadwal-img" src="" alt="Jadwal Hari Ini" style="display: none;">
+    </section>
+  </div>
+
+  <button id="theme-toggle" class="theme-toggle">🌙 Mode Gelap</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
